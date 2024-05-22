@@ -2,7 +2,7 @@ Request URL: localhost:8080/utility/databasecomparator
 
 Request Type: POST
 
-Request Payload:
+Request Payload Sample:
 {
   
     "url1": "jdbc:mysql://localhost:3306",
@@ -18,3 +18,28 @@ Request Payload:
     "columns":["sr_no","name","state","pincode"]
   
 }
+
+
+Response Payload Sample:
+
+{
+    "commonRowsInBothTable": {
+        "pincode": [],
+        "sr_no": [],
+        "name": [],
+        "state": []
+    },
+    "onlyRowsInTable1": {
+        "pincode": [],
+        "sr_no": [],
+        "name": [],
+        "state": []
+    },
+    "onlyRowsInTable2": {
+        "pincode": [],
+        "sr_no": [],
+        "name": [],
+        "state": []
+    }
+}
+
