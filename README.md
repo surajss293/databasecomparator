@@ -7,7 +7,7 @@ Request Payload Sample:
   
     "url1": "jdbc:mysql://localhost:3306",
     "user1": "root",
-    "password1": "Suraj@74644",
+    "password1": "xxxxxxxxxx",
     "schema1": "db1",
     "table1": "table1",
     "url2":  "jdbc:mysql://localhost:3306",
